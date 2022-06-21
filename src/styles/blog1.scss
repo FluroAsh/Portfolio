@@ -1,0 +1,82 @@
+/*-- Blog Post Page (Used on all 5) --*/
+.blog-content {
+    @include center($justify-content: flex-start);
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    
+    .page-heading {
+        border-bottom: 2px solid white;
+        margin-bottom: 1em;
+    }
+
+    a {
+        @include link-format;
+        text-decoration: underline; 
+    }
+    
+    a:hover {
+        color: $primary-color-dim;
+    }
+
+    img {
+        @include center;
+        max-width: 100%;
+        max-height: 350px;
+        border-radius: 5px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        opacity: 90%;
+    }
+
+    .container {
+        padding: 1em 0 0em;
+        border-top: .5px solid $link-static-color;
+
+        .image-wrapper {
+            padding: 8px 0;
+        }
+
+        .content-wrapper {
+            @include center;
+            flex-direction: column;
+        }
+
+        .gen-btn {
+            @include center;
+            @include generic-button;
+            margin: 1em 0;
+            
+            a {
+                @include center;
+                height: 100%;
+                width: 100%;
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .gen-btn:hover {
+            background: rgba(255, 255, 255, 0.85);
+            transition: .4s;
+
+            a {
+                text-decoration: none;
+                color: $primary-color-dim;
+                }
+        }
+
+        h3 {
+            width: 100%;
+            @include center;
+        }
+    }
+}
+
+@media screen and(min-width: 1200px) {
+    .blog-content {
+        margin: 1em 0 2em;
+        
+        .container .gen-btn {
+            display: none;
+        }
+    }
+}

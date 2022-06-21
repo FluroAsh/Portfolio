@@ -1,0 +1,490 @@
+commit dee76e6fd5c4cf456cfcad3f96340f5000007cda
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Sat Nov 13 17:05:56 2021 +1100
+
+    Changed font SRI to SHA384 for all pages
+
+commit 731308587acf74d9e6335736ff3bcc70ca915e5b
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Sat Nov 13 16:13:27 2021 +1100
+
+    Added SHA512 for fonts to HTML pages
+
+commit 6fcf880f780b7f8831af54064ab3f0c0d9df8b06
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Sat Nov 13 14:58:33 2021 +1100
+
+    Changed first font to SHA384... Still getting integrity issue
+
+commit 005a807063b3789f4782237e985b3c288bf6efbb
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Sat Nov 13 14:47:54 2021 +1100
+
+    Bug with SHA512, changed first font to 256... Testing on deployed site
+
+commit 7893ddc70bd3dc1127f3ed5ae17ccb2f07c96470
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Sat Nov 13 12:39:49 2021 +1100
+
+    Added SHA512 for fonts to HTML pages
+
+commit 13b0b2d93d711d92df666e066e04f55857839cf6
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 12 21:28:15 2021 +1100
+
+    Added meta description for the website
+
+commit 4560b416f085e6f99103ea1ae6d6b9faceef617a
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 12 21:23:23 2021 +1100
+
+    Fixed missing SHA512 prefix for ashley-headshot
+
+commit c79090225a2d978b15cc27c76f78986b94c97507
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 12 21:21:49 2021 +1100
+
+    Added SHA512 hash to local Resume within <object> and <a> tag for Downloads
+
+commit e0ec4fbe57f1b9326567fa4ad6b6db4b365b47b2
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 12 21:15:13 2021 +1100
+
+    Added SHA512 integrity/hash to main style.css file
+
+commit 9bb56be4d9d226ac65a9450802c80aff164d4e19
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 12 20:48:03 2021 +1100
+
+    Adding SHA512 to .js script and headshot/flinders img
+
+commit 23a3b3a8eee5c746d81e3f9ca83db42d98c80756
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 12 20:14:31 2021 +1100
+
+    Optimised local images
+
+commit 17b28352aabf13900c7b3f2cd5f853ce9a10b340
+Author: Ash <workashleythompson@gmail.com>
+Date:   Thu Nov 11 12:18:19 2021 +1100
+
+    Changed object and container size on resume.html to 700px, better readability
+
+commit 26c528b7789090feb5b12698a43e6ef800ec4ee8
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 22:03:37 2021 +1100
+
+    Changed minimum width for PDF object to 481px, now works as intended
+
+commit 2c6eecc642300f5b062fdb9cb08bd180697b5143
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 21:02:11 2021 +1100
+
+    Correctly won't show 'BACK' gen-btn on >=1200px width screens
+
+commit b28e3e6955108d35a2564b34deccd322d8d83a49
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 20:50:02 2021 +1100
+
+    Added current active class to current active page in main-header links, styled with border and color
+
+commit 803f85be182b9d473234dae0ee103f573074128c
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 18:05:58 2021 +1100
+
+    Fixed Twitter site-footer link, now correctly opens new tab with the link
+
+commit 80dda0fe006124e8853eefa328dbf83c1a8948bc
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 17:54:17 2021 +1100
+
+    Fixed issue where margin was not appearing on child pages, making main-nav overlap over page-headings on >=1200px wide screens (added important to media query).
+
+commit dfb5934a8687a0de0b76be98769e1203cfc16cb2
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 17:49:23 2021 +1100
+
+    Fixed intro-section on index (home) page not being correctly centered due to margin-top which was being used for the main-nav. Has now been removed for mobile devices (up to 1199px width)
+
+commit 4e45e5740458fd47afb7a2bfc0b619a3d54235ea
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 17:44:59 2021 +1100
+
+    Changed hamburger button to 28px wide, 4px high. main margin left & right adjusted to 50px to accomodate
+
+commit c0f6265e81eff306a7453aa7d39134df1ed5c0d8
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 16:47:21 2021 +1100
+
+    1. Added main-nav-bar to other pages with working links
+    2. Changed margin page headings to account for fixed main-nav-bar
+
+commit 01caf0619d5e216d53172787bcc02a593b7221b9
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 16:04:44 2021 +1100
+
+    1. Changed main-menu-nav to have a 50px margin (offsets logo for centering)
+    2. Changed main-header to sticky, now follows scrolling for better UX
+
+commit 01aba20518370b223c27c6828c29ccdcbd578d2d
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 15:53:29 2021 +1100
+
+    Changed main-header (container) background colour to #272727
+
+commit 00997b45add704ffc0ccabe735a17c366a99ba39
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 15:47:30 2021 +1100
+
+    1. Added dropshadow to main-navbar
+    2. Removed background color from logo div
+    3. Added text-shadow 'glow' effect to main-menu-nav <a> elements, also link-formattin
+
+commit ab279c12635d2f463af1030f46c7321e63d957c9
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 15:24:23 2021 +1100
+
+    1. Added basic navigation bar for >1200px screen sizes (TBC)
+    2. Improved view height responsiveness on the index page to account for above changes
+
+commit 38de6ad13810fd703e10645435e8a8182fe42914
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 12:52:32 2021 +1100
+
+    hamburger menu now disabled on >=1200px width screens
+
+commit 0b87f6dd771b1ed55be3eff437b855fcdb7279bf
+Author: Ash <workashleythompson@gmail.com>
+Date:   Tue Nov 9 12:39:33 2021 +1100
+
+    Fixed footer so always in viewport, changed so that main is min-height calc(100vh - 250px)
+
+commit 9d3b1ecd3da254bd15528a87522bf8ec72b68337
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 23:59:04 2021 +1100
+
+    Changed blog & portfolio container bottom paddings to 2em, removed section bottom padding
+
+commit 295ffbc513e2a3481d1d442f0c45b76076f7ca72
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 23:46:57 2021 +1100
+
+    Changed min-height of resume section to 100%... (Needs fixing for responsiveness)
+
+commit 33b9fe968b4705468952710fd98125a2be701094
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 23:44:43 2021 +1100
+
+    Refactored PDF object and content-wrapper for better scalability on non-mobile devices
+
+commit 370ef1c5c221564670abcc4ede8a0ee028993bdb
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 22:16:06 2021 +1100
+
+    Changed site-footer height to 250px
+
+commit 37ff0c562dffcb6dc3cf0a36750a00b7e1e6032c
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 20:12:46 2021 +1100
+
+    Fixed naming issue with desktop/mobile elements, now more clearly represents each in resume.html
+
+commit 556c7ca58e049372b23e4d882875d792a89cfa9d
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 19:58:07 2021 +1100
+
+    Changed portfolio image links so they open in a new tab
+
+commit 1fad157db62807e93155775dcf950a2a80877918
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 17:14:26 2021 +1100
+
+    1. Cleaned up HTML for better readability & removed 'outer' div from pages other than index
+    2. Individual blog posts now display correctly, changed bottom margin on h2 to 0, top to 2em
+
+commit 13b301736dd1f6f07186293179a45839cdde2ce8
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 17:02:44 2021 +1100
+
+    Changed page-heading to sit inside the sections on blog, resume & contact
+
+commit c8636918f93cc13b12b190bcf073eaf58e648856
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 15:02:53 2021 +1100
+
+    1. Added SVG image to resume-section
+    2. Added Download button for PDF on resume page, as-well as object to display as a PDF on non-mobile devices
+
+commit d79d61f9c0c5104c06762a699071834cd211e5cd
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 12:47:33 2021 +1100
+
+    Fixed contact form structure, name/email appear on sameline
+
+commit 89249fa72488f19100bf9a683a9a92cf2938776f
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 11:51:59 2021 +1100
+
+    fixed issue with footer clipping into contact-section
+
+commit a849b5f5733d199f2976c1090c4b7090ab314ccc
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 00:47:18 2021 +1100
+
+    Changed bottom margins on sections to 2em
+
+commit af1730352b500c1dc7fb9d8ef23c4de971175129
+Author: Ash <workashleythompson@gmail.com>
+Date:   Mon Nov 8 00:40:11 2021 +1100
+
+    1. Added contact section (incomplete) - styling complete, structure WIP
+    2. Added 'My Skills' section to portfolio
+
+commit d0555fdb99feef08eebb4a22824484aa2f085e99
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sun Nov 7 20:50:53 2021 +1100
+
+    1. Changed background color for svg images to #ffffff30, max-with to 700px
+    2. Removed max-height from content-wrapper in about-section, no more clipping boxes!
+    3. Added portfolio section complete with links, content boxes and similiar structure to the blogs page
+
+commit 0868dcc6f5d9b679e8ae074da6c021153ba936df
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sun Nov 7 11:57:08 2021 +1100
+
+    changed content box to include backdrop-filter: blur(12px) and colour to fff with opacity 10
+
+commit 311be3bf04c418f39617612da3427efb2a305de4
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 22:30:04 2021 +1100
+
+    Moved h2 page-header into its own flexbox to allow for greater styling flexibility with blog-overview
+
+commit 0e75cc6bb7e364c98d0b1c0f6ee7869860771416
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 21:32:04 2021 +1100
+
+    1. Added 'back' button for mobile devices to easy get back to blog-overview page
+    2. Added media query so back button won't be displayed >1200px displays
+    3. Removed bottom padding from blog-overview and blog-content, less white space
+
+commit b3c3c512666c5a6625b93bb2a35cfaf8e74006f0
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 21:11:40 2021 +1100
+
+    Added 481px+ width support for tablets and desktop, content boxes now scale relative to screen width
+
+commit a74026c619f462d517958cfb55750c90efe52819
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 20:02:29 2021 +1100
+
+    1. Added 'highlight' effect to blog images when hovered over
+    2. Added blog author and date section to the content boxes for blog posts
+    3. Fixed some spelling on landing page
+
+commit c9e67c55132f28713c150931ca057cf237411829
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 17:29:13 2021 +1100
+
+    Increased border opacity for images on blog-overview when hovered
+
+commit e63044e5e76b51852b6194c6a63f845db189ff62
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 16:49:35 2021 +1100
+
+    Changed hamburger btn from right to left, better UX
+
+commit 550557cc56cd15acd7e46d7a23a4a882395ed553
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 16:45:33 2021 +1100
+
+    1. Fixed images popping out of their containers
+    2. Added borders to seperate individual containers, easier to distinguish individual content
+    3. Added unique images as placeholders for blog-previews
+    4. Moved the menu-btn element from index into variables.scss
+
+commit 5e3149034546f89a917abb1758114f638d0ad0dd
+Author: Ash <workashleythompson@gmail.com>
+Date:   Sat Nov 6 16:00:07 2021 +1100
+
+    1. Added images to blog page
+    2. Added links from blog page to individual post web pages
+    3. Added some styling for hovering over images & removed box-shadow from page-header
+
+commit 2495151d20af75c5d9e5ebac52cbef8f78d59e1d
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 5 16:49:04 2021 +1100
+
+    1. Moved universal elements into variables.scss for better readability
+    2. Stylised blog page TBC
+    3. Basic blog structure in place, lacking link functionality
+    4. Moved short-content-text properties into variables.scss
+
+commit d31614bc9a5af335dbab2a40f18760d230396e43
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 5 15:02:55 2021 +1100
+
+    added more universal mobile elements to other pages as-well as placeholder HTML elements
+
+commit bf3cd3f38f3d32ea276954e17a006cc3f45008c5
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 5 14:39:03 2021 +1100
+
+    1. added links to nav-links in slide-out nav
+    2. Added boilerplate HTML to other pages
+
+commit faa4e0822a1bea7369a85503460c947270b4d3b1
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 5 13:40:17 2021 +1100
+
+    fixed primary-color to match primary-color-dim
+
+commit dda6fe879896ade3647b1b2169613ec1e8301ab2
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 5 13:37:46 2021 +1100
+
+    1. Added letter-spacing to about-text <p>
+    2. Added actual content to the about-text paragraphs
+    3. Changed variable name from link-color to primary-color, link-color-dim to primary-color-dim etc.
+
+commit bfdac78e6d518f849c3394397c7f6b32b5286f32
+Author: Ash <workashleythompson@gmail.com>
+Date:   Fri Nov 5 12:15:55 2021 +1100
+
+    added gen-btn class to content box button elements for less redundant code
+
+commit 2d5ae7fa980342b365f4977be27966ed90cfc4d6
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Fri Nov 5 00:25:59 2021 +1100
+
+    1. Changed h2 landing page font to Acme, boldended <p>
+    2. Changed heading fonts for content boxes to Montserrat, bold
+    3. Slightly dimmed generic-buttons for better UX with link-color-dim variable
+
+commit 70c2b208f82629dc48acd1e4d0eb655b444bfa46
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 23:06:42 2021 +1100
+
+    fixed link text on buttons to be centered
+
+commit dfb149247216beceb6d984b366538bebfc464f22
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 22:46:00 2021 +1100
+
+    added additional pages
+
+commit cf5c5bcfce40760c6ee6d3221b2e5b73a1fda3fd
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 22:27:50 2021 +1100
+
+    changed generic-button width to 180px to support 320px wide mobile
+
+commit 703f1f7f3a87c3d1442e19cc956ab46ed7637a61
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 22:25:43 2021 +1100
+
+    1. Added 'contact me' and 'portfolio' link buttons for better UX
+    2. Modified content box(s) box-shadow
+
+commit 27697294d0d50a9d3a50e9b4d2aae42c9aa67135
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 18:25:28 2021 +1100
+
+    1. Fixed scroll behaviour
+    2. Added functional footer with 'to-top' button
+    3. Added border to footer for visual seperation between main body
+    4. Adjusted some margins/padding
+
+commit 5ce162d26cf608867590db13689b24c10661f463
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 13:38:00 2021 +1100
+
+    added footer HTML elements; TBC
+
+commit b8e9d4d44fdb7cf4ee92f3a1b0a77d7bfd2d95f7
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 12:52:14 2021 +1100
+
+    added containers around content-boxes to better position elements on the page
+
+commit ab5afac5901ba4fb5cccb8591d89ecad1e4e3c9b
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 12:35:44 2021 +1100
+
+    fixed flinders-bg file location in 'outer'
+
+commit df93fd230da23ed2eee95a3f623566baada51ce9
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 12:32:46 2021 +1100
+
+    centered SVG imaged
+
+commit f26c3378b0d9bd7aed9de5e875d419c4cb33d037
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 12:25:47 2021 +1100
+
+    1. Changed container properties so they properly scale on all devices
+    2. Added SVG Images
+    3. Changed styling of content boxes to better match theme
+
+commit 5837644e62b7a3e175ac842eee3658b3cdbf15f2
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 12:25:13 2021 +1100
+
+    1. Changed container properties so they properly scale on all devices
+    2. Added SVG Images
+    3. Changed styling of content boxes to better match theme
+
+commit 0195115c8103a215c471c5a19a5392350ba0b3aa
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Thu Nov 4 11:10:11 2021 +1100
+
+    1. added background image to intro-block inside of 'outer' div
+
+commit e72ff30b70951407cf8d842a6c410770a598f807
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Wed Nov 3 20:12:04 2021 +1100
+
+    moved full stop into <mark> to avoid space after Ash
+
+commit 7625c7b429665a1a45c4051e294fd271c282a5e4
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Wed Nov 3 20:05:11 2021 +1100
+
+    1. Enlarged font size Ashley Thompson'
+    2. Changed font & font-size for h2 in mobile-nav
+
+commit 99072323a5ce589b724c7e1d1f646ffd8ec67b31
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Wed Nov 3 19:15:15 2021 +1100
+
+    1. Added functionality to hamburger menu and child elements
+    2. Added social media links to slide out mobile menu
+    3. Imported 'At' logo and added to mobile-nav__top
+    4. Changed hamburger menu transition animation to fade right
+
+commit 9809e45e33dd1002cdb4b0a00cd43af884759cde
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Wed Nov 3 19:03:46 2021 +1100
+
+    Added headshot image to landing page
+
+commit d50c2d98cb28587ffba8c12a0d6839bcf0f9d698
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Wed Nov 3 13:54:01 2021 +1100
+
+    1. Hamburger menu added, complete with .js
+    2. Added slide out nav menu for mobile/tablet view
+
+commit d72b8b22d3f5e70166a91994348394a3cdafc29e
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Wed Nov 3 12:51:51 2021 +1100
+
+    1. Changed font to Montserrat
+    2. Added basic hamburger menu, non-functional
+
+commit f0f18eb3eb76b0c4c45a42ea55712348b89d91e0
+Author: FluroAsh <workashleythompson@gmail.com>
+Date:   Wed Nov 3 11:12:42 2021 +1100
+
+    initial commit

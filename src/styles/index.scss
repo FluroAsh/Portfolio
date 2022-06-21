@@ -1,0 +1,121 @@
+/* Outer used to wrap the page & anchor  */
+/* Background Image for Intro Block, anchored in Outer */ 
+.outer {
+    min-height: 100%;
+    width: 100vw;
+    
+    img[src*="flinders-bg.jpg"] {
+        position: absolute;
+        z-index: -1;
+        height: calc(100vh + 10px);
+        width: 100vw;
+        object-fit: cover;
+        filter: opacity(0.5) blur(2px);
+    }
+}
+
+/*-- Home - Landing Page --*/
+/*-- Hero Banner **/
+.intro-section {
+    @include center;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 70px;
+    
+    #ashley-headshot {
+        @include center;
+        margin: 10px;
+        width: 200px;
+        border-radius: 50%;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .intro-text {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .container {
+        h2 {
+            font-family: 'Acme', sans-serif;   
+        }
+
+        p {
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-weight: 700;
+            font-size: 1.5em;
+        }
+        
+        mark {
+            margin-right: 2px;
+        }
+    }
+}
+
+/*-- About Section --*/
+.about-section {
+    @include center($justify-content: flex-start);
+    flex-direction: column;
+    min-height: 800px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 0 2em;
+
+    .content-wrapper {
+        @include center;
+        flex-direction: column;
+
+        .gen-btn {
+            @include center;
+            @include generic-button;
+            
+            a {
+                @include center;
+                height: 100%;
+                width: 100%;
+                text-decoration: none;
+                color: white;
+            }
+        }
+        .gen-btn:hover {
+            background: rgba(255, 255, 255, 0.85);
+            transition: .4s;
+
+            a {
+                text-decoration: none;
+                color: $primary-color-dim;
+               }
+        }
+
+        h3 {
+            width: 100%;
+            @include center;
+        }
+    }
+    
+    .content-block {
+        @include center;
+        flex-direction: column;
+        width: 100%;
+        padding: 2em 0 0;
+    }
+}
+
+
+/***--Mobile -> Tablet--***/
+@media screen and(max-width: 1199px) {
+    .intro-section {
+        margin-top: 0;
+    }
+}
+
+/***--Laptops & Large Screens--***/
+@media screen and(min-width: 1200px) {
+    img[src*="flinders-bg.jpg"] {
+        height: calc(100vh - 70px) !important;
+    }
+
+    .intro-section {
+        min-height: calc(100vh - 70px) !important;
+    }
+}

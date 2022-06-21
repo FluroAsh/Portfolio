@@ -1,0 +1,48 @@
+/*-- Portfolio Post Page (Currently only 1 post, 2 placeholder posts) --*/
+.portfolio-overview {
+    @include center($justify-content: flex-start);
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding: 30px 0 0; 
+
+    /* Placeholder Images */
+    img {
+        @include center;
+        max-width: 100%;
+        max-height: 350px;
+        border-radius: 5px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        opacity: 90%;
+    }
+
+    .image-wrapper a:hover img {
+        // box-shadow: 0 0 7px 1px $primary-color; /*!! Not sure if I prefer the box-shadow or not! */
+        border: 2px solid $primary-color;
+        opacity: 100%;
+        transition: .2s;
+    }
+    
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 1em 0 2em;
+        border-top: .5px solid $link-static-color;
+
+        .image-wrapper {
+            padding: 8px 0;
+        }
+    } 
+}
+
+#portfolio-intro {
+    margin-top: 30px;
+}
+
+.container .content-wrapper {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+}
